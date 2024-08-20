@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico Número 1-LEMOS</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="Estructura">1.Estructura básica del Documento</h1>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+        </div>
+    </header>    
+        
+    <main>
+        <div>
+            <h2>2.Encabezados y Propiedades del Texto</h2>
+            <div>
+                <h3 style="font-weight: lighter;">Este es un subtítulo h3 en negrita</h3>
+                <h3 style="font-weight: bold">Este es un subtítulo h3 más en negrita.</h3>
+                <h3 style="font-weight: bolder;">Este es un subtítulo h3 aún más en negrita.</h3>
+                <h4 style="font-style: italic;">Este es un subtítulo h4 en cursiva.</h4>
+                <h4 style="text-decoration: overline; color: cadetblue;">Este es un subtítulo h4 subrayado por arriba y celeste.</h4>
+                <h4 style="text-decoration: underline;">Este es un subtítulo h4 subrayado.</h4>
+                <h5 style="font-family:Georgia, 'Times New Roman', Times, serif"> Este es un subtítulo h5 en Times New Roman</h5>
+                <h5 style="background-color: cornflowerblue;"> Este es un subtítulo h5 con color de fondo.</h5>
+                <h6 style="background-color: darkcyan; color: aliceblue;">Este es subtítulo h6 con fondo verde y letras blancas.</h6>
+                <h6 style="color: crimson;">Este es un sibtítulo h6 de color rojo</h6>
+            </div>  
+        </div>
+        
+        <div>
+            <h2>3.División y Agrupación de Contenido</h2>
+            <div>
+                <h3 style="font-weight: bold;">Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div.</p>
+            </div>      
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div.</p>
+            </div>
+        </div>
+    
+        <div>
+            <h2>4.Enlaces y Listas</h2>
+                <p>Ve a <a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a> para consultar documentación de HTML.</p>
+                <div>
+                    <p>Enlaces internos:</p>
+                    <ul>
+                        <li><a href="#Estructura">Ir a estructura</a></li>
+                        <li><a href="#Multimedia">Ir a multimedia</a></li>
+                        <li><a href="#Formulario">Ir a formulario</a></li>
+                    </ul>
+                </div>
+            
+            <div>
+                <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer ítem de una lista desordenada.</li>
+                    <li>Segundo ítem de una lista desordenada.</li>
+                    <li>Tercer ítem de una lista desordenada</li>
+                </ul>
+            </div>
+    
+            <div>
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Item número 1</li>
+                    <li>Item número 2</li>
+                    <li>Item número 3</li>
+                </ol>
+            </div>
+        </div>
+    
+        <div>
+            <h2 id="Multimedia">5.Elementos Multimedia</h2>
+            <div>
+                <p>Mira el contenido multimedia:</p>
+                <div>
+                    <p style="font-weight: bold;">Imágenes, en la web y en el proyecto.</p>
+                    <img src="https://th.bing.com/th/id/OIP.fBJ2R5Y0m_tQXUxdc0icPQHaKd?rs=1&pid=ImgDetMain" alt="El logo de CSS." width="300px" height="300px">
+                    <img src="contenido multimedia/imagenes/logoHTML5.jpg" alt="El logo de HTML5." width="300px" height="300px">
+                </div>
+    
+                <div>
+                    <p style="font-weight: bold;">Video.</p>
+                    <video src="contenido multimedia\videos\videoplayback.mp4" controls></video>
+                </div>
+    
+                <div>
+                    <p style="font-weight: bold;">Audio del video anterior</p>
+                    <audio src="contenido multimedia\audios\HTML en dos minutos.mp3" controls></audio>
+                </div>
+            </div>
+        </div>
+    
+        <div>
+            <h2>Tablas</h2>
+            <div>
+                <table style="border-collapse: collapse; border: 2px solid rgb(200,200,200);  letter-spacing: 1px;  font-size: 0.8rem;">
+                    <thead>
+                        <tr>
+                            <th style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Columna 1</th>
+                            <th style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Columna 2</th>
+                            <th style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Columna 3</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 1-1</td>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 1-2</td>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 1-3</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 2-1</td>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 2-2</td>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;"> Celda 3-2</td>
+                        </tr>
+        
+                        <tr>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 3-1</td>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 3-2</td>
+                            <td style="border: 1px solid rgb(190,190,190); padding: 10px 20px;">Celda 3-3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div>
+            <h2 id="Formulario">Formularios</h2>
+            <div>
+                <form>
+                    <div>
+                        <label>Correo electrónico</label>
+                        <input type="email" placeholder="ejemplo@ejemplo">
+                    </div>
+                    
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Ejemplo">
+                    </div>
+                    
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" placeholder="Ejemplo">    
+                    </div>
+    
+                    <div>
+                        <label>Fecha de nacimiento</label>
+                        <input type="date" placeholder="aa/mm/dd">
+                    </div>
+                    
+                    <div>
+                        <label>Información adicional</label>
+                        <textarea placeholder="Información importante de aclarar."></textarea>
+                    </div>
+    
+                    <button type="submit">Enviar datos</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer style="background-color: bisque; font-weight: bold;">
+        <p>AUGUSTO LEMOS - UTN FRM</p>
+    </footer>
+
+</body>
+</html>
